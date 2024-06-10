@@ -581,27 +581,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.03
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.03
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.125
+      value: -0.011
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.427
+      value: -0.703
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.152
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ef670f3e1ca1f944391f847f6f64b039, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3285,27 +3285,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.014
+      value: -0.007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.464
+      value: -0.588
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.223
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0b998cf79fdb1f248af34c7bea710b9f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3369,15 +3369,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3389,7 +3389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.228
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9fdfbc312039d6a41a65fee9f69537c6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4339,8 +4339,8 @@ MonoBehaviour:
   SourceType: 0
   ImageFileSource:
     PathType: 1
-    Path: ARMarkers/SunkenShips.jpg
-    Name: Nahimov
+    Path: ARMarkers/Marker.png
+    Name: Marker
     Scale: 0.1
   TargetDataFileSource:
     PathType: 1

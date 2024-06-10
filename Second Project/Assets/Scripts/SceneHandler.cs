@@ -13,7 +13,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private Transform SelectMonumentPeterburgScreen;
     [SerializeField] private Transform CameraScreen;
 
-    private string selectedCity;
+    //private string selectedCity;
 
     [SerializeField] private Button SevastopolButton;
     // [SerializeField] private Button MoscowButton;
@@ -63,9 +63,9 @@ public class SceneHandler : MonoBehaviour
 
     public void SelectNahimov()
     {
-        controller.targetController.ImageFileSource.Path = "ARMarkers/Nahimov.jpg";
-        controller.targetController.ImageFileSource.Name = "Nahimov";
-        Debug.Log(controller.targetController.ImageFileSource.Path);
+        //controller.targetController.ImageFileSource.Path = "ARMarkers/Nahimov.jpg";
+        //controller.targetController.ImageFileSource.Name = "Nahimov";
+        //Debug.Log(controller.targetController.ImageFileSource.Path);
         SelectMonumentSevastopolScreen.gameObject.SetActive(false);
         CameraScreen.gameObject.SetActive(true);
 
@@ -76,9 +76,9 @@ public class SceneHandler : MonoBehaviour
 
     public void SelectSunkenShipsMonument()
     {
-        controller.targetController.ImageFileSource.Path = "ARMarkers/SunkenShips.jpg";
-        controller.targetController.ImageFileSource.Name = "SunkenShips";
-        Debug.Log(controller.targetController.ImageFileSource.Path);
+        //controller.targetController.ImageFileSource.Path = "ARMarkers/SunkenShips.jpg";
+        //controller.targetController.ImageFileSource.Name = "SunkenShips";
+        //Debug.Log(controller.targetController.ImageFileSource.Path);
         SelectMonumentSevastopolScreen.gameObject.SetActive(false);
         CameraScreen.gameObject.SetActive(true);
 
@@ -89,9 +89,9 @@ public class SceneHandler : MonoBehaviour
 
     public void SelectAlexanderColumn()
     {
-        controller.targetController.ImageFileSource.Path = "ARMarkers/Alexander.jpg";
-        controller.targetController.ImageFileSource.Name = "Alexander";
-        Debug.Log(controller.targetController.ImageFileSource.Path);
+        //controller.targetController.ImageFileSource.Path = "ARMarkers/Alexander.jpg";
+        //controller.targetController.ImageFileSource.Name = "Alexander";
+        //Debug.Log(controller.targetController.ImageFileSource.Path);
         SelectMonumentPeterburgScreen.gameObject.SetActive(false);
         CameraScreen.gameObject.SetActive(true);
 
