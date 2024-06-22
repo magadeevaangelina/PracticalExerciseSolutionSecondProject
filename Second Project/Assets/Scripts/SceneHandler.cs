@@ -25,7 +25,7 @@ public class SceneHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Author;
     [SerializeField] private TextMeshProUGUI City;
 
-    [SerializeField] private ImageTrakingController controller;
+    //[SerializeField] private ImageTrakingController controller;
     private void Start()
     {
         StartCoroutine(ShowScreensSequentially());
